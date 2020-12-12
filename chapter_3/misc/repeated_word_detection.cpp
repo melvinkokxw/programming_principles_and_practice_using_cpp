@@ -2,10 +2,12 @@
 
 int main()
 {
-    string previous = " ";
+    string previous = "";
     string current;
-    while (cin >> current) { // while `cin >> current` succeeds
-        if (previous == current) {
+    while (cin >> current) // while `cin >> current` succeeds
+    {
+        if (previous == current)
+        {
             cout << "repeated word: " << current << '\n';
         }
         previous = current;

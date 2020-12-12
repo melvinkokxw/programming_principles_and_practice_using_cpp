@@ -5,10 +5,10 @@
 int main()
 {
     cout << "Please enter your first name and age\n";
-    string first_name = "???";  // string variable 
-                                // ("???” means “don’t know the name”)
-    double age = -1;   // integer variable (–1 means “don’t know the age”)
-    cin >> first_name >> age;   // read a string followed by an integer
+    string first_name = "???"; // string variable
+                               // ("???” means “don’t know the name”)
+    double age = -1;           // integer variable (–1 means “don’t know the age”)
+    cin >> first_name >> age;  // read a string followed by an integer
     age = age * 12;
     cout << "Hello, " << first_name << " (" << age << " months old)\n";
 }

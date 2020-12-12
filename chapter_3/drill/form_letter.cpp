@@ -37,10 +37,10 @@ int main()
          << "How are you? I am fine. I miss you. "
          << "Have you seen " << friend_name << " recently? "
          << "If you see " << friend_name << " please ask " << friend_pronoun << " to call me. \n";
-    
+
     if (age < 12)
     {
-        cout << "Next year you will be " << age+1 << ". \n";
+        cout << "Next year you will be " << age + 1 << ". \n";
     }
     else if (age == 17)
     {
